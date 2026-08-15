@@ -18,18 +18,6 @@ The Python application lets the user select an object from a live camera feed, t
 - 🔊 Optional tracking/lock sound feedback
 - 🖥️ Processing radar visualization
 
-## 📁 Project Structure
-
-```text
-.
-├── main.py
-├── hardware.ino
-├── radar.pde
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
 Generated runtime files such as the CSV log are intentionally ignored by Git.
 
 ## 🛠️ Requirements

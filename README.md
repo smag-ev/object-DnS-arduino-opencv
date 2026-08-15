@@ -95,6 +95,7 @@ Open `radar.pde` in Processing and configure its serial port before running it.
 | Key | Action |
 |---|---|
 | `N` | Reset and select a new target |
+| `S` | Shoot the target |
 | `R` | Reset servo and tracking state |
 | `I` | Invert servo direction |
 | `Q` | Quit |
@@ -202,16 +203,3 @@ The Python application uses **manual target selection followed by visual trackin
 The A* component is a grid-based planning demonstration operating on the display coordinate space.
 
 The Processing sketch is a separate visualization component and should use a serial data source appropriate to the connected range sensor.
-
-## 📜 License
-
-Add an appropriate open-source license before publishing the repository if your project permits redistribution.
-
-
-## 🔒 Physical Actuation Placeholder
-
-The original project contains a physical actuation path. In this GitHub-ready
-copy, the two physical invocation points have been replaced with clearly marked
-placeholders. The surrounding project structure, tracking, locking, servo
-control, serial architecture, logging, planner, and radar visualization remain
-intact.

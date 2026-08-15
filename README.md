@@ -1,6 +1,6 @@
 # 🎯 Object Tracking & Servo Control
 
-A compact computer-vision and IoT project that combines **OpenCV object tracking**, **Arduino servo control**, **A* path planning**, and a **Processing-based radar visualization**.
+A compact computer-vision and IoT project that combines **OpenCV object tracking**, **Arduino servo control**, **A-star path planning**, and a **Processing-based radar visualization**.
 
 The Python application lets the user select an object from a live camera feed, tracks it with OpenCV, estimates a stable lock state, and maps the horizontal position to a servo angle.
 
